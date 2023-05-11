@@ -1,7 +1,7 @@
 asgiref==3.2.7
-Django==3.1.12
+Django==3.2.19
 pytz==2020.1
-sqlparse==0.3.1
+sqlparse==0.4.4
 php-wsgi
 pyyaml==5.4
 django-crispy-forms
@@ -9,3 +9,4 @@ gunicorn
 django-heroku
 whitenoise
 django-allauth
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
