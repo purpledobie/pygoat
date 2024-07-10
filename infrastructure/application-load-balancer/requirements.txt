@@ -6,3 +6,4 @@ aws-cdk.aws-elasticloadbalancingv2
 
 # Work around for jsii#413
 aws-cdk.aws-autoscaling-common
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
