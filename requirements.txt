@@ -1,5 +1,5 @@
 asgiref==3.2.10
-Django==3.1.12
+Django==4.2.20
 pytz==2020.1
 sqlparse==0.3.1
 php-wsgi
@@ -9,6 +9,6 @@ gunicorn
 django-heroku
 whitenoise
 django-allauth
-Jinja2==2.7.2
+Jinja2==3.1.6
 python-etcd==0.4.5
 urllib3==1.25.9
