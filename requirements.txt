@@ -1,7 +1,7 @@
 asgiref==3.2.10
-Django==3.1.12
+Django==3.1.13
 pytz==2020.1
-sqlparse==0.3.1
+sqlparse==0.4.2
 php-wsgi
 pyyaml==5.4
 django-crispy-forms
@@ -9,6 +9,6 @@ gunicorn
 django-heroku
 whitenoise
 django-allauth
-Jinja2==2.7.2
+Jinja2==2.11.3
 python-etcd==0.4.5
-urllib3==1.25.9
+urllib3==1.26.5
