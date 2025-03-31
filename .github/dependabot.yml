@@ -1,0 +1,53 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
+    allow:
+      - dependency-type: "all"
+    groups:
+      pip-updates:
+        applies-to: "all"
+        update-types: ["minor", "patch"]
+
+  - package-ecosystem: "pip"
+    directory: "/pygoat/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
+    allow:
+      - dependency-type: "all"
+    groups:
+      pip-updates:
+        applies-to: "all"
+        update-types: ["minor", "patch"]
+
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
+    allow:
+      - dependency-type: "all"
+    groups:
+      docker-updates:
+        applies-to: "all"
+        update-types: ["minor", "patch"]
+
+  - package-ecosystem: "docker"
+    directory: "/pygoat/"
+    schedule:
+      interval: "daily"
+    labels:
+      - "dependencies"
+    allow:
+      - dependency-type: "all"
+    groups:
+      docker-updates:
+        applies-to: "all"
+        update-types: ["minor", "patch"]
